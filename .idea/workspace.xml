@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/test_version2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/lm_01_do_json.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/lm_02_do_json_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/lm_03_dict_list_to_str.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/lm_04_dict_list_to_json_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/lm_05_eval_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json_requests/users_write.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests_test/lm_01_get_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests_test/lm_02_post_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests_test/lm_03_recharge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests_test/lm_04_requests_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requests_test/lm_05_do_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/01_interface.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/02_unittest_define.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unittest/handle_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/草稿/2u3y4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/草稿/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/草稿/房子面积家具.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/草稿/继承重写.py" afterDir="false" />
-    </list>
+    <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,6 +185,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669886543383</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1677667031862</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677667031862</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +205,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
