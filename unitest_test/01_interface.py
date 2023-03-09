@@ -1,6 +1,6 @@
 import json
 
-from unittest.handle_request import HandleRequest
+from unitest_test.handle_request import HandleRequest
 
 do_requset = HandleRequest()
 
@@ -31,6 +31,5 @@ real_code = res.json()["code"]
 if expected_value == real_code:
     print("success")
 else:
-    print("faild")
+    print("false")
 
-pass
