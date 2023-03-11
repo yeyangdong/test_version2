@@ -7,6 +7,7 @@
     <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unitest_test/02_unitest_define.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitest_test/02_unitest_define.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unitest_test/02_unitest_setup_teardown.py" beforeDir="false" afterPath="$PROJECT_DIR$/unitest_test/02_unitest_setup_teardown.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,47 +34,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/unitest_test/.pytest_cache",
+    "settings.editor.selected.configurable": "configurable.group.build"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unitest_test/.pytest_cache" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/unitest_test" />
       <recent name="$PROJECT_DIR$/草稿" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in 02_unitest_define.py">
-    <configuration name="Python tests for 02_unitest_define.TestRegister" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="test_version2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitest_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;02_unitest_define.TestRegister&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for 02_unitest_define.TestRegister.test_1register_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="test_version2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitest_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;02_unitest_define.TestRegister.test_1register_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Python tests for 02_unitest_setup_teardown.TestRegister">
     <configuration name="Python tests for 02_unitest_define.TestRegister.test_2register_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,7 +66,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for 02_unitest_define.TestRegister.test_no_mobile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for 02_unitest_setup_teardown.TestRegister" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +76,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;02_unitest_define.TestRegister.test_no_mobile&quot;" />
+      <option name="_new_target" value="&quot;02_unitest_setup_teardown.TestRegister&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in 02_unitest_define.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for 02_unitest_setup_teardown.TestRegister.test_2register_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,17 +90,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/unitest_test/02_unitest_define.py&quot;" />
+      <option name="_new_target" value="&quot;02_unitest_setup_teardown.TestRegister.test_2register_success&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for 02_unitest_setup_teardown.TestRegister.test_no_mobile" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="test_version2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitest_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;02_unitest_setup_teardown.TestRegister.test_no_mobile&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in 02_unitest_setup_teardown.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="test_version2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unitest_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/unitest_test/02_unitest_setup_teardown.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in 02_unitest_define.py" />
+        <item itemvalue="Python tests.Python tests for 02_unitest_setup_teardown.TestRegister" />
+        <item itemvalue="Python tests.Python tests in 02_unitest_setup_teardown.py" />
+        <item itemvalue="Python tests.Python tests for 02_unitest_setup_teardown.TestRegister.test_no_mobile" />
+        <item itemvalue="Python tests.Python tests for 02_unitest_setup_teardown.TestRegister.test_2register_success" />
         <item itemvalue="Python tests.Python tests for 02_unitest_define.TestRegister.test_2register_success" />
-        <item itemvalue="Python tests.Python tests for 02_unitest_define.TestRegister" />
-        <item itemvalue="Python tests.Python tests for 02_unitest_define.TestRegister.test_1register_success" />
-        <item itemvalue="Python tests.Python tests for 02_unitest_define.TestRegister.test_no_mobile" />
       </list>
     </recent_temporary>
   </component>
@@ -242,6 +248,11 @@
           <url>file://$PROJECT_DIR$/unitest_test/02_unitest_define.py</url>
           <line>30</line>
           <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unitest_test/02_unitest_setup_teardown.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

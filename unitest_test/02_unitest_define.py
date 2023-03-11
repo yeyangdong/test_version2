@@ -38,6 +38,7 @@ class TestRegister(unittest.TestCase):
         #     print("false")
         # self.assertEqual(expected_value,real_code,"该用例报错1")
         self.assertIn('{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}',res.text)
+        # TestRegister.assertIn()
 
 
     # def test_1no_mobile(self):
