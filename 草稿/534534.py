@@ -1,5 +1,6 @@
-list = ["1","2","3"]
+tuple1 = {"姓名": 'a', "年龄": 'b', "籍贯": 'c'}
+tuple2 = {"姓名": 'd', "年龄": 'e', "籍贯": 'f'}
 
 
-for i in range(5):
-    print(i)
+print(tuple1.items())
+

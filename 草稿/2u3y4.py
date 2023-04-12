@@ -79,6 +79,7 @@ import random
 def register():
     url = 'http://test-api.ddpurse.com:6001/v1/users'
     method = 'post'
+    method =method.upper()
     headers = {
         "Authorization":""
     }
@@ -100,7 +101,7 @@ def register():
     }
 
     # 发起请求
-    response = requests.request(method=method.upper(),url=url,params=form_data,headers=headers)
+    response = requests.request(method=method,url=url,params=form_data,headers=headers)
 
     code = response.json()["code"]
     if code == "200":
