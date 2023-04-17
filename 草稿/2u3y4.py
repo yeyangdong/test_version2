@@ -101,7 +101,9 @@ def register():
     }
 
     # 发起请求
-    response = requests.request(method=method,url=url,params=form_data,headers=headers)
+    # response = requests.request(method=method,url=url,params=form_data,headers=headers)
+    response = requests.post(url=url,data=form_data,json=None)
+
 
     code = response.json()["code"]
     if code == "200":

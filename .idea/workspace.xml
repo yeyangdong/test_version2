@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="1">
+      <change afterPath="$PROJECT_DIR$/unittest_2_excel/04_read_data_from_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unittest_2_excel/testReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_2_excel/testReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿/2u3y4.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/2u3y4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿/534534.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/534534.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +40,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/unittest_2_excel/.pytest_cache",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -52,7 +56,7 @@
       <recent name="$PROJECT_DIR$/草稿" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.534534">
+  <component name="RunManager" selected="Python.04_read_data_from_excel">
     <configuration name="02_unittest_discover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +91,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_2_excel/03_unittest_report.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_read_data_from_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_version2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_2_excel" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_2_excel/04_read_data_from_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,27 +162,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_01_register.TestRegister" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="test_version2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_2_excel" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_01_register.TestRegister&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.534534" />
-        <item itemvalue="Python.2u3y4" />
-        <item itemvalue="Python.03_unittest_report" />
+        <item itemvalue="Python.04_read_data_from_excel" />
         <item itemvalue="Python.02_unittest_discover" />
-        <item itemvalue="Python tests.Python tests for test_01_register.TestRegister" />
+        <item itemvalue="Python.534534" />
+        <item itemvalue="Python.03_unittest_report" />
+        <item itemvalue="Python.2u3y4" />
       </list>
     </recent_temporary>
   </component>
@@ -289,39 +300,29 @@
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/01_unittest.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/01_unittest.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file:///Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/runner.py</url>
           <line>150</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/02_unittest_discover.py</url>
-          <line>15</line>
-          <option name="timeStamp" value="79" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/02_unittest_discover.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/test_01_register.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/草稿/2u3y4.py</url>
-          <line>105</line>
+          <line>106</line>
           <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/草稿/534534.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unittest_2_excel/04_read_data_from_excel.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/unittest_2_excel/02_unittest_discover.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
