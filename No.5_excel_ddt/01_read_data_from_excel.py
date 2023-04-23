@@ -7,7 +7,8 @@ wb = load_workbook("testcase.xlsx")
 
 # 2.获取表单,默认获取第一个表单，想当于表单对象
 # 其中返回了最大和最小的行列数
-ws = wb.active
+# 返回表单，ws = wb.active，获得第一张表单
+ws = wb["login"]
 
 # 3.cell()方法获取单元格，返回cell对象，行列的值，都从1开始计算
 # 可以使用cell对象中.value方法获取单元格的值

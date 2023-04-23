@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/unittest_2_excel/04_read_data_from_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/02_write_data_into_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unittest_2_excel/testReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/unittest_2_excel/testReport.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/草稿/2u3y4.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/2u3y4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/草稿/534534.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/534534.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/testcase.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/unittest_2_excel/.pytest_cache",
+    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.5_excel_ddt",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/No.5_excel_ddt" />
       <recent name="$PROJECT_DIR$/unittest_2_excel/.pytest_cache" />
       <recent name="$PROJECT_DIR$/unittest_2_excel" />
       <recent name="$PROJECT_DIR$/unitest_test/.pytest_cache" />
@@ -56,8 +58,8 @@
       <recent name="$PROJECT_DIR$/草稿" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.04_read_data_from_excel">
-    <configuration name="02_unittest_discover" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.02_write_data_into_excel">
+    <configuration name="01_read_data_from_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_2_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_2_excel/02_unittest_discover.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_unittest_report" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_write_data_into_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,11 +88,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_2_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_2_excel/03_unittest_report.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/02_write_data_into_excel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_read_data_list_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="test_version2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +143,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2u3y4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="handle_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,32 +151,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/草稿" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿/2u3y4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="534534" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="test_version2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/草稿" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿/534534.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_write_data_into_excel" />
+        <item itemvalue="Python.handle_excel" />
+        <item itemvalue="Python.01_read_data_from_excel" />
+        <item itemvalue="Python.03_read_data_list_dict" />
         <item itemvalue="Python.04_read_data_from_excel" />
-        <item itemvalue="Python.02_unittest_discover" />
-        <item itemvalue="Python.534534" />
-        <item itemvalue="Python.03_unittest_report" />
-        <item itemvalue="Python.2u3y4" />
       </list>
     </recent_temporary>
   </component>
@@ -210,92 +212,77 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/json_requests/lm_03_dict_list_to_str.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/json_requests/lm_04_dict_list_to_json_file.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/json_requests/lm_02_do_json_file.py</url>
-          <line>4</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/json_requests/lm_05_eval_function.py</url>
+          <url>file://$PROJECT_DIR$/No.1_json_requests/lm_05_eval_function.py</url>
           <line>5</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_01_get_request.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_01_get_request.py</url>
           <line>17</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_02_post_request.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_02_post_request.py</url>
           <line>20</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_03_recharge.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_03_recharge.py</url>
           <line>36</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_04_requests_session.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_04_requests_session.py</url>
           <line>24</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_05_do_request.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_05_do_request.py</url>
           <line>10</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_05_do_request.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_05_do_request.py</url>
           <line>61</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_05_do_request.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_05_do_request.py</url>
           <line>37</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/requests_test/lm_05_do_request.py</url>
+          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_05_do_request.py</url>
           <line>38</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitest_test/01_interface.py</url>
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/01_interface.py</url>
           <line>34</line>
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitest_test/02_unitest_define.py</url>
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
           <line>16</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitest_test/02_unitest_define.py</url>
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
           <line>17</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitest_test/02_unitest_define.py</url>
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
           <line>30</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitest_test/03_unitest_setup_teardown.py</url>
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/03_unitest_setup_teardown.py</url>
           <line>57</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unitest_test/04_unitest_setupClass_teardownClass.py</url>
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/04_unitest_setupClass_teardownClass.py</url>
           <line>36</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
@@ -315,14 +302,39 @@
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/04_read_data_from_excel.py</url>
+          <url>file://$PROJECT_DIR$/No.4_unittest_2_excel/04_read_data_from_excel.py</url>
           <line>18</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/unittest_2_excel/02_unittest_discover.py</url>
+          <url>file://$PROJECT_DIR$/No.4_unittest_2_excel/02_unittest_discover.py</url>
           <line>12</line>
           <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
