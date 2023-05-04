@@ -32,5 +32,14 @@
 #     ter.English_Chinese()
 
 
-for i in range(1,10):
-    print(i)
+# for i in range(1,10):
+#     print(i)
+
+
+class rmt():
+    print("1")
+
+asd = rmt()
+
+setattr(asd,'key',"222")
+print(asd.key)

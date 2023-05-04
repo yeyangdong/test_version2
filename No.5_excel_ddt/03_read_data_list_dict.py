@@ -26,20 +26,3 @@ for row in range(1, ws.max_row+1):
 
 print(testcase_list)
 
-
-# title = []
-# case = []
-# for i in range(1, ws.max_row + 1):
-#     parms_list = {}
-#     for j in range(1, ws.max_column + 1):
-#         parms = ws.cell(i, j).value
-#         if i == 1:
-#             title.append(parms)
-#         else:
-#             key = title[j - 1]
-#             parms_list[key] = parms
-#     if i != 1:
-#         case.append(parms_list)
-#
-# print(case)
-

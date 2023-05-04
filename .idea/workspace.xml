@@ -5,12 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/02_write_data_into_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/handle_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/test_01_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/test_02_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/01_read_yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/ddt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_excel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/test_02_login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/testcase.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/testcase.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/草稿/qwewqe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test_version2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_version2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/.~testcase.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/testcase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/草稿/534534.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/534534.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,25 +57,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.5_excel_ddt",
+    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/No.6_handle_config_log" />
       <recent name="$PROJECT_DIR$/No.5_excel_ddt" />
       <recent name="$PROJECT_DIR$/unittest_2_excel/.pytest_cache" />
       <recent name="$PROJECT_DIR$/unittest_2_excel" />
       <recent name="$PROJECT_DIR$/unitest_test/.pytest_cache" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/unittest_2_excel" />
       <recent name="$PROJECT_DIR$/unitest_test" />
       <recent name="$PROJECT_DIR$/草稿" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.02_write_data_into_excel">
-    <configuration name="01_read_data_from_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_01_register.TestRegister (1)">
+    <configuration name="01_read_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +85,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.6_handle_config_log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.6_handle_config_log/01_read_yaml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="02_write_data_into_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="534534" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +106,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/草稿" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/02_write_data_into_excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿/534534.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,7 +119,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_read_data_list_dict" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="handle_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,11 +127,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.6_handle_config_log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.6_handle_config_log/handle_yaml.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,55 +140,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_read_data_from_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_01_register.TestRegister (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittest_2_excel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.6_handle_config_log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittest_2_excel/04_read_data_from_excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_01_register.TestRegister&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_excel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_01_register.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.5_excel_ddt" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.6_handle_config_log" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.02_write_data_into_excel" />
-        <item itemvalue="Python.handle_excel" />
-        <item itemvalue="Python.01_read_data_from_excel" />
-        <item itemvalue="Python.03_read_data_list_dict" />
-        <item itemvalue="Python.04_read_data_from_excel" />
+        <item itemvalue="Python tests.Python tests for test_01_register.TestRegister (1)" />
+        <item itemvalue="Python.handle_yaml" />
+        <item itemvalue="Python.534534" />
+        <item itemvalue="Python.01_read_yaml" />
+        <item itemvalue="Python tests.Python tests in test_01_register.py" />
       </list>
     </recent_temporary>
   </component>
@@ -230,16 +234,6 @@
           <url>file://$PROJECT_DIR$/No.2_requests_test/lm_03_recharge.py</url>
           <line>36</line>
           <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_04_requests_session.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.2_requests_test/lm_05_do_request.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/No.2_requests_test/lm_05_do_request.py</url>
@@ -327,14 +321,24 @@
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py</url>
-          <line>31</line>
-          <option name="timeStamp" value="111" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/No.5_excel_ddt/01_read_data_from_excel.py</url>
           <line>16</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.5_excel_ddt/test_01_register.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.6_handle_config_log/01_read_yaml.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="124" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
