@@ -5,27 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0251f90-6a6f-4224-885a-e06dc3b45694" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/handle_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/test_01_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.5_excel_ddt/test_02_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/01_read_yaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/ddt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_excel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_yaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/run.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/test_02_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/testcase.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/testcase.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/草稿/qwewqe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test_version2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test_version2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/草稿/setattr().py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/.~testcase.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/03_read_data_list_dict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/handle_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/No.5_excel_ddt/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/No.5_excel_ddt/testcase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.1_json_requests/lm_01_do_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.1_json_requests/lm_01_do_json.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.1_json_requests/lm_02_do_json_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.1_json_requests/lm_02_do_json_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.1_json_requests/lm_03_dict_list_to_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.1_json_requests/lm_03_dict_list_to_str.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.3_unitest_test/handle_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.3_unitest_test/handle_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/handle_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/handle_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/handle_yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/testReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/testReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/test_02_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/test_02_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/testcase.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/No.6_handle_config_log/testcase.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/No.6_handle_config_log/testcase.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/草稿/534534.py" beforeDir="false" afterPath="$PROJECT_DIR$/草稿/534534.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,21 +48,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yeyangdong/Desktop/自己写的代码/test_version2/No7_log_project_design&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/No7_log_project_design" />
       <recent name="$PROJECT_DIR$/No.6_handle_config_log" />
       <recent name="$PROJECT_DIR$/No.5_excel_ddt" />
       <recent name="$PROJECT_DIR$/unittest_2_excel/.pytest_cache" />
       <recent name="$PROJECT_DIR$/unittest_2_excel" />
-      <recent name="$PROJECT_DIR$/unitest_test/.pytest_cache" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -76,8 +71,8 @@
       <recent name="$PROJECT_DIR$/草稿" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_01_register.TestRegister (1)">
-    <configuration name="01_read_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_02_login.TestRegister">
+    <configuration name="lm_01_do_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +80,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.6_handle_config_log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.1_json_requests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.6_handle_config_log/01_read_yaml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.1_json_requests/lm_01_do_json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="534534" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lm_02_do_json_file" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/草稿" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.1_json_requests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/草稿/534534.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.1_json_requests/lm_02_do_json_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,7 +114,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_yaml" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="lm_03_dict_list_to_str" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -127,11 +122,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.6_handle_config_log" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.1_json_requests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.6_handle_config_log/handle_yaml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/No.1_json_requests/lm_03_dict_list_to_str.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +135,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_01_register.TestRegister (1)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for 02_unitest_define.TestRegister" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="test_version2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/No.3_unitest_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_01_register.TestRegister" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +163,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_01_register.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_02_login.TestRegister" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="test_version2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,17 +173,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_02_login.TestRegister&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_02_login.TestRegister" />
         <item itemvalue="Python tests.Python tests for test_01_register.TestRegister (1)" />
-        <item itemvalue="Python.handle_yaml" />
-        <item itemvalue="Python.534534" />
-        <item itemvalue="Python.01_read_yaml" />
-        <item itemvalue="Python tests.Python tests in test_01_register.py" />
+        <item itemvalue="Python.lm_03_dict_list_to_str" />
+        <item itemvalue="Python.lm_02_do_json_file" />
+        <item itemvalue="Python.lm_01_do_json" />
       </list>
     </recent_temporary>
   </component>
@@ -216,11 +225,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.1_json_requests/lm_05_eval_function.py</url>
-          <line>5</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/No.2_requests_test/lm_01_get_request.py</url>
           <line>17</line>
           <option name="timeStamp" value="20" />
@@ -254,21 +258,6 @@
           <url>file://$PROJECT_DIR$/No.3_unitest_test/01_interface.py</url>
           <line>34</line>
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/No.3_unitest_test/03_unitest_setup_teardown.py</url>
@@ -336,9 +325,74 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.1_json_requests/lm_05_eval_function.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No7_log_project_design/test_01_register.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No7_log_project_design/test_01_register.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No7_log_project_design/test_01_register.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No7_log_project_design/test_01_register.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No7_log_project_design/test_01_register.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No7_log_project_design/test_01_register.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.3_unitest_test/02_unitest_define.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py</url>
-          <line>16</line>
-          <option name="timeStamp" value="124" />
+          <line>59</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py</url>
+          <line>62</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/No.6_handle_config_log/test_01_register.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="169" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

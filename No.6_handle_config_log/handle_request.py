@@ -8,7 +8,6 @@ class HandleRequest:
 
     def add_headers(self, one_dict):
         self.session.headers.update(one_dict)
-        pass
 
     def send(self, method, url, **kwargs):
         one_method = method.upper()

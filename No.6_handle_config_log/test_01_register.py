@@ -1,34 +1,31 @@
 # 0.导入unittest模块
+import json
 import unittest
 import ddt
 from handle_request import HandleRequest
 from handle_excel import HandleExcel
 from handle_yaml import HandleYaml
+from handle_log import do_log
 
-# do_excel = HandleExcel("testcase.xlsx", "register")
-# testcase_data = do_excel.read_data()  # 嵌套字典列表
 
 do_yaml = HandleYaml()
 
 
 @ddt.ddt()  # 1.使用ddt.ddt作为类的装饰器
 class TestRegister(unittest.TestCase):  # 需要继承unittest.TestCase父类
-    do_excel = HandleExcel(do_yaml.get_dat('excel', 'filename'), "register")
+    do_excel = HandleExcel(do_yaml.get_data('excel', 'filename'), "register")
     testcase_data = do_excel.read_data()  # 嵌套字典列表
 
     @classmethod
     def setUpClass(cls):
         cls.do_request = HandleRequest()
-        header_dict = {
-            "X-Lemonban-Media-Type": "lemonban.v2",
-            "User-Agent": "Mozilla/5.0 LookSky",
-            "Content-Type": "application/json"
-        }
-        cls.do_request.add_headers(header_dict)
+        cls.do_request.add_headers(do_yaml.get_data("api", "api_version"))
+        do_log.info("开始执行用例")
 
     @classmethod
     def tearDownClass(cls):
         cls.do_request.close()
+        do_log.info("用例执行结束")
 
     """
     2.使用ddt.data函数来装饰用例的实例方法
@@ -62,7 +59,7 @@ class TestRegister(unittest.TestCase):  # 需要继承unittest.TestCase父类
         #         print(f"具体异常为：{e}")
         res = self.do_request.send(method=testcase_dict["method"],
                                    url=testcase_dict["url"],
-                                   json=testcase_dict["data"])
+                                   json=json.loads(testcase_dict["data"]))
         expected_value = testcase_dict["expected"]
         actual = res.json()["code"]
         row = testcase_dict["id"] + 1
@@ -70,9 +67,9 @@ class TestRegister(unittest.TestCase):  # 需要继承unittest.TestCase父类
         try:
             self.assertEqual(expected_value, actual, testcase_dict["name"])
         except AssertionError as e:
-            print("1232312")
+            do_log.error(f"用例执行失败,异常为{e}")
             self.do_excel.write_data(row, 8, "失败")
-            # raise e
+            raise e
         else:
             self.do_excel.write_data(row, 8, "成功")
 

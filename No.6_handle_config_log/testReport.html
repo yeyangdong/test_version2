@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>测试报告</title>
+    <title>叶洋东的报告</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
@@ -114,20 +114,20 @@ function html_escape(s) {
 }
 </script>
 <div class='heading'>
-<h1 style="font-family: Microsoft YaHei">测试报告</h1>
-<p class='attribute'><strong>测试人员 : </strong> jsonLiu</p>
-<p class='attribute'><strong>开始时间 : </strong> 2023-04-24 17:44:21</p>
-<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.365728</p>
-<p class='attribute'><strong>测试结果 : </strong> 共 4，通过 1，失败 3，通过率= 25.00%</p>
+<h1 style="font-family: Microsoft YaHei">叶洋东的报告</h1>
+<p class='attribute'><strong>测试人员 : </strong> 报告人：叶洋东</p>
+<p class='attribute'><strong>开始时间 : </strong> 2023-05-30 16:40:21</p>
+<p class='attribute'><strong>合计耗时 : </strong> 0:00:00.483122</p>
+<p class='attribute'><strong>测试结果 : </strong> 共 4，失败 4，通过率= 0.00%</p>
 
-<p class='description'>tester：yyd</p>
+<p class='description'>自动化报告description</p>
 </div>
 
 
 <p id='show_detail_line'>
-<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 25.00% }</a>
-<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 3 }</a>
-<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 1 }</a>
+<a class="btn btn-primary" href='javascript:showCase(0)'>概要{ 0.00% }</a>
+<a class="btn btn-danger" href='javascript:showCase(1)'>失败{ 4 }</a>
+<a class="btn btn-success" href='javascript:showCase(2)'>通过{ 0 }</a>
 <a class="btn btn-info" href='javascript:showCase(3)'>所有{ 4 }</a>
 </p>
 <table id='result_table' class="table table-condensed table-bordered table-hover">
@@ -171,6 +171,8 @@ function html_escape(s) {
 ft1_1: Traceback (most recent call last):
   File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/ddt.py", line 220, in wrapper
     return func(self, *args, **kwargs)
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_01_register.py", line 71, in test_register
+    raise e
   File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_01_register.py", line 67, in test_register
     self.assertEqual(expected_value, actual, testcase_dict["name"])
 AssertionError: 0 != 1004 : 注册接口正向用例
@@ -195,6 +197,8 @@ AssertionError: 0 != 1004 : 注册接口正向用例
 ft1_2: Traceback (most recent call last):
   File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/ddt.py", line 220, in wrapper
     return func(self, *args, **kwargs)
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_01_register.py", line 71, in test_register
+    raise e
   File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_01_register.py", line 67, in test_register
     self.assertEqual(expected_value, actual, testcase_dict["name"])
 AssertionError: 0 != 1004 : 手机号为空
@@ -206,16 +210,16 @@ AssertionError: 0 != 1004 : 手机号为空
 </tr>
 
 <tr class='failClass warning'>
-    <td>test_02_login.Testlogin</td>
+    <td>test_02_login.TestRegister</td>
     <td class="text-center">2</td>
-    <td class="text-center">1</td>
-    <td class="text-center">1</td>
+    <td class="text-center">0</td>
+    <td class="text-center">2</td>
     <td class="text-center">0</td>
     <td class="text-center"><a href="javascript:showClassDetail('c2',2)" class="detail" id='c2'>详细</a></td>
 </tr>
 
 <tr id='ft2_1' class='none'>
-    <td class='failCase'><div class='testcase'>test_01_login_success</div></td>
+    <td class='failCase'><div class='testcase'>test_login_success_00001: 登录接口</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
     <button id='btn_ft2_1' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_1'>失败</button>
@@ -225,20 +229,14 @@ AssertionError: 0 != 1004 : 手机号为空
     <div id='div_ft2_1' class="collapse in" align="left">
     <pre>
     
-ft2_1: 此处需要日志记录
-具体异常为：'token_info' != '{"code":0,"msg":"OK","data":{"id":5548,"l[413 chars]ed"}'
-- token_info
-+ {"code":0,"msg":"OK","data":{"id":5548,"leave_amount":0.0,"mobile_phone":"15158787632","reg_name":"","reg_time":"2023-03-09 19:48:25.0","type":0,"token_info":{"token_type":"Bearer","expires_in":"2023-04-24 17:49:22","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1NDgsImV4cCI6MTY4MjMyOTc2Mn0.MZCHWs7HgeY8cGO6vtxYme9dAoViLTpjX7vwj0U8uYvdBoIPQXtGMNHu9KP1fI9cIFVGhnJ83ht68qgcAcDzUg"}},"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
- : {"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
-Traceback (most recent call last):
-  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_02_login.py", line 47, in test_01_login_success
+ft2_1: Traceback (most recent call last):
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_02_login.py", line 56, in test_login_success
     raise e
-  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_02_login.py", line 43, in test_01_login_success
-    self.assertEqual(expected_value,res.text,'{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}')
-AssertionError: 'token_info' != '{"code":0,"msg":"OK","data":{"id":5548,"l[413 chars]ed"}'
-- token_info
-+ {"code":0,"msg":"OK","data":{"id":5548,"leave_amount":0.0,"mobile_phone":"15158787632","reg_name":"","reg_time":"2023-03-09 19:48:25.0","type":0,"token_info":{"token_type":"Bearer","expires_in":"2023-04-24 17:49:22","token":"eyJhbGciOiJIUzUxMiJ9.eyJtZW1iZXJfaWQiOjU1NDgsImV4cCI6MTY4MjMyOTc2Mn0.MZCHWs7HgeY8cGO6vtxYme9dAoViLTpjX7vwj0U8uYvdBoIPQXtGMNHu9KP1fI9cIFVGhnJ83ht68qgcAcDzUg"}},"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
- : {"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_02_login.py", line 52, in test_login_success
+    self.assertEqual(expected_value, actual, testcase_dict["name"])
+AssertionError: 0 != 1004 : 登录接口
 
 
     </pre>
@@ -246,22 +244,25 @@ AssertionError: 'token_info' != '{"code":0,"msg":"OK","data":{"id":5548,"l[413 c
     </td>
 </tr>
 
-<tr id='pt2_2' class='hiddenRow'>
-    <td class='passCase'><div class='testcase'>test_02_no_pwd</div></td>
+<tr id='ft2_2' class='none'>
+    <td class='failCase'><div class='testcase'>test_login_success_00002: 手机号为空</div></td>
     <td colspan='5' align='center'>
     <!--默认收起错误信息 -Findyou
-    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
-    <div id='div_pt2_2' class="collapse">  -->
+    <button id='btn_ft2_2' type="button"  class="btn btn-danger btn-xs collapsed" data-toggle="collapse" data-target='#div_ft2_2'>失败</button>
+    <div id='div_ft2_2' class="collapse">  -->
     <!-- 默认展开错误信息 -Findyou -->
-    <button id='btn_pt2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_pt2_2'>通过</button>
-    <div id='div_pt2_2' class="collapse in" align="left">
+    <button id='btn_ft2_2' type="button"  class="btn btn-danger btn-xs" data-toggle="collapse" data-target='#div_ft2_2'>失败</button>
+    <div id='div_ft2_2' class="collapse in" align="left">
     <pre>
     
-pt2_2: 此处需要日志记录
-具体异常为：'1' != '{"code":1,"msg":"密码为空","data":null,"copyr[64 chars]ed"}'
-- 1
-+ {"code":1,"msg":"密码为空","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}
- : 密码为空
+ft2_2: Traceback (most recent call last):
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/ddt.py", line 220, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_02_login.py", line 56, in test_login_success
+    raise e
+  File "/Users/yeyangdong/Desktop/自己写的代码/test_version2/No.6_handle_config_log/test_02_login.py", line 52, in test_login_success
+    self.assertEqual(expected_value, actual, testcase_dict["name"])
+AssertionError: 0 != 1004 : 手机号为空
 
 
     </pre>
@@ -272,10 +273,10 @@ pt2_2: 此处需要日志记录
 <tr id='total_row' class="text-center active">
     <td>总计</td>
     <td>4</td>
-    <td>1</td>
-    <td>3</td>
     <td>0</td>
-    <td>通过率：25.00%</td>
+    <td>4</td>
+    <td>0</td>
+    <td>通过率：0.00%</td>
 </tr>
 </table>
 

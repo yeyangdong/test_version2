@@ -1,6 +1,10 @@
 import unittest
 
 from HTMLTestRunner import HTMLTestRunner
+from handle_yaml import do_yaml
+from handle_log import do_log
+
+
 
 suite = unittest.defaultTestLoader.discover(".")   #获取当前路径下的用例，以test_开头的：源码    def discover(self, start_dir, pattern='test*.py', top_level_dir=None):
 
@@ -10,12 +14,14 @@ suite = unittest.defaultTestLoader.discover(".")   #获取当前路径下的用�
 # runner = unittest.TextTestRunner()
 
 
-
-with open("testReport.html", "wb") as file:
+html_name = do_yaml.get_data("reports", "filename")
+with open(html_name, "wb") as file:
     runner = HTMLTestRunner(file,
-                   verbosity=1,
-                   title="测试报告",
-                   description="tester：yyd")
+                   verbosity=do_yaml.get_data("reports", "verbosity"),
+                   title=do_yaml.get_data("reports", "title"),
+                   description=do_yaml.get_data("reports", "description"),
+                   tester=do_yaml.get_data("reports", "tester")
+                            )
     # 3.运行套件里面的用例
     runner.run(suite)
 

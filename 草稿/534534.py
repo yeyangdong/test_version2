@@ -36,10 +36,17 @@
 #     print(i)
 
 
-class rmt():
-    print("1")
+# class rmt():
+#     print("1")
+#
+# asd = rmt()
+#
+# setattr(asd,'key',"222")
+# print(asd.key)
 
-asd = rmt()
 
-setattr(asd,'key',"222")
-print(asd.key)
+
+
+dasd = {"姓名":"叶洋东", "年龄":"13"}
+for i in dasd:
+    print(i,":",dasd[i])

@@ -1,70 +1,64 @@
 # 0.导入unittest模块
 import unittest
+import json
+import ddt
 from handle_request import HandleRequest
 from handle_excel import HandleExcel
+from handle_yaml import HandleYaml
+from handle_log import do_log
 
-# 1.需要继承unittest.TestCase父类
-class Testlogin(unittest.TestCase):
+do_yaml = HandleYaml()
+
+@ddt.ddt()  # 1.使用ddt.ddt作为类的装饰器
+class TestRegister(unittest.TestCase):  # 需要继承unittest.TestCase父类
+    do_excel = HandleExcel(do_yaml.get_data('excel', 'filename'), "login")
+    testcase_data = do_excel.read_data()  # 嵌套字典列表
+
     @classmethod
     def setUpClass(cls):
-        # 所有用例执行，也只会调用一次
-        print("\nsetUPClass")
         cls.do_request = HandleRequest()
-        cls.url = "http://api.lemonban.com:8788/futureloan/member/login"
-        header_dict = {
-            "X-Lemonban-Media-Type": "lemonban.v2",
-            "User-Agent": "Mozilla/5.0 LookSky",
-            "Content-Type": "application/json"
-        }
-        cls.do_request.add_headers(header_dict)
+        cls.do_request.add_headers(do_yaml.get_data("api", "api_version"))
+        do_log.info("开始执行用例")
 
     @classmethod
     def tearDownClass(cls):
-        print("\ntearDownClass")
         cls.do_request.close()
+        do_log.info("用例执行结束")
 
-
-
-
-
-    def test_01_login_success(self):
-        requests_params = {
-            "mobile_phone": "15158787632",
-            "pwd": "12345678",
-            "reg_name": "",
-            "type": 0
-        }
-        # 4.向接口发起请求
-        res = self.do_request.send(method="post", url=self.url, json=requests_params)
-        # 5.断言
-        expected_value = "token_info"
-        # actual = res.json()["code"]
+    @ddt.data(*testcase_data)
+    def test_login_success(self, testcase_dict):
+        # 使用for循环读取数据存在的问题：
+        # 1.用例总数始终只统计为一条
+        # 2.一旦for循环中一条用例执行失败（比如抛出异常）， 那么整个for循环就会停止执行
+        # 3.基于第一条，失败的用例无法正确统计
+        # for testcase_dict in testcase_data:
+        #     res = self.do_request.send(method=testcase_dict["method"],
+        #                                url=testcase_dict["url"],
+        #                                json=testcase_dict["data"])
+        #     expected_value = testcase_dict["expected"]
+        #     actual = res.json()["code"]
+        #     try:
+        #         self.assertEqual(expected_value, actual, testcase_dict["name"])
+        #     except AssertionError as e:
+        #         print("此处需要日志记录")
+        #         print(f"具体异常为：{e}")
+        res = self.do_request.send(method=testcase_dict["method"],
+                                   url=testcase_dict["url"],
+                                   json=json.loads(testcase_dict["data"]))
+        expected_value = testcase_dict["expected"]
+        actual = res.json()["code"]
+        row = testcase_dict["id"] + 1
+        self.do_excel.write_data(row, 7, res.text)
         try:
-            self.assertEqual(expected_value,res.text,'{"code":2,"msg":"账号已存在","data":null,"copyright":"Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved"}')
+            self.assertEqual(expected_value, actual, testcase_dict["name"])
         except AssertionError as e:
-            print("此处需要日志记录")
-            print(f"具体异常为：{e}")
+            do_log.error(f"用例执行失败，具体的异常为：{e}")
+            self.do_excel.write_data(row, 8, "失败")
             raise e
+        else:
+            self.do_excel.write_data(row, 8, "成功")
 
-    def test_02_no_pwd(self):
-        requests_params = {
-            "mobile_phone": "15158787635",
-            "pwd": "",
-            "reg_name": "",
-            "type": 0
-        }
 
-        # 4.向接口发起请求
-        res = self.do_request.send(method="post", url=self.url, json=requests_params)
-
-        # 5.断言
-        expected_value = "1"
-        try:
-            self.assertEqual(expected_value,res.text,"密码为空")
-        except AssertionError as e:
-            print("此处需要日志记录")
-            print(f"具体异常为：{e}")
-            # raise e
 
 if __name__ == '__main__':
     unittest.main()  # 这个也会执行该文件下的所有用例

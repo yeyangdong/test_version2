@@ -1,7 +1,7 @@
 import requests
 
 
-class HandleRequest:
+class HandleRequest():
 
     def __init__(self):
         self.session = requests.Session()
